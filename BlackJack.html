@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlackJack</title>
+    <link rel="stylesheet" href="BlackJack.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div class="BlackJack">
+      <p>21點</p>
+    </div>
+    <div class="wrap">
+      <input type="button" class="add" value="加牌" onclick="hitMe()">
+      <input type="button" class="stop" value="停牌" onclick="stay()">
+      <input type="button" class="chips" value="加注" onclick="chips()">
+    </div>
+    <div class="mask">
+      <div class="intro">
+        <h1>21點</h1>
+        遊戲方式：
+        1.玩家拿到21點獲勝，否則比大小
+        2.J，Q，K為10點
+        3. 1 則判斷該牌數是1點或是11點
+        <button onclick="startGame()">開始遊戲</button>
+      </div>
+    </div>
+    <div id="chips">
+      <p>下注:<span id="chip"></span></p>
+    </div>
+    <div class="player1">
+      <h1>玩家</h1>
+      <p>金額:<span id="p1Money">10000</span></p>
+      <p>點數:<span id="player1"></span></p>
+    </div>
+    <div id="player1poke">
+    </div>
+    <div class="Computer">
+      <h1>Computer</h1>
+     <p>金額:<span id="ComMoney">10000</span></p>
+      <p>點數:<span id="Computer"></span></p>
+    </div>
+    <div id="Computerpoke">
+    </div>
+    <div class="Game">
+      <a href="index.html">回首頁</a>
+    </div>
+  </div>
+  <script src="BlackJack.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+}
+.BlackJack{
+    position: absolute;
+    left: 45%;
+    color: #fff;
+    font-weight: bold;
+    font-size: 50px;
+}
+.wrap{
+    width: 1060px;
+    height: 150px;
+    position: relative;
+    left: 50%;
+    margin-left: -530px;
+}
+.wrap input[type="button"]{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: black 3px solid;
+    background-color: #fff;
+    color: black;
+    font-weight: bolder;
+}
+.wrap .add{
+    margin-left: -125px;
+}
+.wrap .chips{
+    margin-left: 125px;
+}
+.mask{
+    width: 100vw;
+    height:100vh;
+    position:absolute;
+    top:0;
+    z-index: 99;
+    background: rgba(0,0,0,0.5);
+  }
+.intro{
+    width: 400px;
+    height:400px;
+    background: rgba(255,255,255,0.9);
+    white-space: pre-line;
+    margin:150px auto 0px auto;
+    font-weight: bolder;
+    font-size: 20px;
+    line-height: 40px;
+    font-family: "微軟正黑體";
+    padding:20px;
+}
+.intro button{
+    font-size:20px;
+    display: block;
+    margin:30px auto 0 auto;
+    padding:10px;
+}
+.intro h1{
+    text-align: center;
+}
+.player1{
+    position: absolute;
+    color: #fff;
+    left: 28%;
+    top: 7%;
+  }
+.Computer{
+    position: absolute;
+    color: #fff;
+    right: 28%;
+    top: 7%;
+}
+#player1poke{
+    position: absolute;
+    left: 23%;
+    top: 30%;
+    width: 280px;
+}
+#Computerpoke{
+    position: absolute;
+    width: 280px;
+    right: 25%;
+    top: 30%;
+}
+#player1poke img,#Computerpoke img{
+    margin: 5px;
+    width: 75px;
+}
+#nowplayer1,#nowComputer{
+    font-size: 30px;
+    font-weight: bolder;
+}
+#chips{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 28%;
+}
+#chips p{
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.Game{
+    position: fixed;
+    bottom: 5%;
+    left: 50%;
+    margin-left: -50px;
+}
+.Game a{
+    border: black solid 3px;
+    background-color: saddlebrown;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 30px;
+}

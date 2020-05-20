@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>翻牌記憶遊戲</title>
+    <link rel="stylesheet" href="Concentration.css">
+</head>
+<body>
+  <div id="wrapper">
+    <div class="wrap">
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div class="card"><div class="front"></div><div class="back"></div></div>
+    <div id="wall"></div>
+    </div>
+    <input type="button" class="chips" value="加注" onclick="chips()">
+    <div class="mask">
+    <div class="intro">
+      遊戲方式：
+        1.翻牌後記住牌面花色及位置
+        2.連續翻出兩張同數字的牌就可以消除
+      <button onclick="startGame()">開始遊戲</button>
+    </div>
+    </div>
+    <div id="player1chips"></div>
+    <div class="player1">
+      <h1>玩家1</h1>
+      <p>下注:<span id="p1chip"></span></p>
+      <p>翻牌正確數:<span id="player1"></span></p>
+      <p id="nowplayer1">目前玩家</p>
+    </div>  
+    <div id="player2chips"></div>
+    <div class="player2">
+      <h1>玩家2</h1>
+      <p>下注:<span id="p2chip"></span></p>
+      <p>翻牌正確數:<span id="player2"></span></p>
+      <p id="nowplayer2">目前玩家</p>
+    </div> 
+  </div>
+  <div class="Game">
+    <a href="index.html">回首頁</a>
+</div>
+<script src="Concentration.js"></script>
+</body>
+</html>
